@@ -1,12 +1,13 @@
-1. python2,tensorboard, pytorch-0.4.0
+1.python2,tensorboard, pytorch-0.4.0
 
-2. put pascal-voc2012 dataset in data
+2.put pascal-voc2012 dataset in data
 data
 ----gt (labels)
 ----img (images)
 ----train.txt (train name)
 ----val.txt  (val name)
 (if you want to train your datasets, you can put the datasets as i showed above.)
+
 3.python train.py 
 
 4.python m ulti_scale_test.py
